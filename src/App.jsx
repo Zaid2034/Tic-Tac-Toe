@@ -16,7 +16,7 @@ export default function App () {
     initialBoard.push (row);
   }
   if (winner) {
-    alert (`${turn?0:1} wins`);
+    alert (`${turn?"O":"X"} wins`);
     setWinner(false)
   }
 
